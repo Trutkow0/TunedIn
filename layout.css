@@ -1,0 +1,77 @@
+/*Page layouts for Tuned In */
+
+#countdownClock {
+        margin-top: 5px;
+}
+
+section {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        column-gap: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding: 10px;
+}
+
+section > * {
+        outline: 6px ridge #C63D2F;
+}
+
+.left {
+        margin-left: 10px;
+        padding: 10px;
+}
+
+.left h2 {
+        text-align: center;
+}
+
+.left img {
+        display: block;
+        margin: 0 auto;
+}
+
+.right {
+        margin-left: 10px;
+        padding: 10px;
+}
+
+.right h2 {
+        text-align: center;
+}
+
+.right img {
+        display: block;
+        margin: 0 auto;
+}
+
+article {
+        margin-left: 10px;
+        padding: 10px;
+        text-align: left;
+}
+
+article img {
+        display: block;
+        margin: 0 auto;
+}
+
+article h2 {
+        text-align: center;
+}
+
+/*Countdown clock for Anticpated Album Drops*/
+#countdownClock { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #000;
+        grid-column: 15%;
+        padding: 10px;
+}
+
+.countdownItem { 
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+}

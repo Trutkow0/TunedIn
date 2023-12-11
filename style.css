@@ -1,0 +1,81 @@
+/*CSS for Tuned In */
+
+/*Webpage style*/
+html {
+        background-color: #FF9B50;
+        font-family: Avantgarde, TeX Gyre Adventor, URM Gothic L, sans-serif;
+}
+
+/*Top of page header including main webpage title with hypertext link 
+and current date and time clock*/
+header {
+        background-color: #E25E3E;
+        text-align: center;
+}
+
+.title-link {
+        display: inline-block;
+}
+
+.title-link h1 {
+        font-size: 50px;
+        font-variant: small-caps;
+}
+
+.title-link h1 a {
+        text-decoration: none;
+        color: black;
+}
+
+.title-link img {
+        flex: 0 0 auto;
+}
+
+#currentClock {
+        margin-right: auto;
+}
+
+/*Navigation bar and links*/
+nav {
+        background-color: #C63D2F;
+        border-top: 2px solid #FF9B50;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+}
+
+nav li {
+        display: inline-block;
+        list-style-type: none;
+}
+
+li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        color: #FFBB5C;
+}
+
+li a:hover {
+        color: #FF9B50
+}
+
+.myAcct {
+        margin-left: auto;
+        display: inline-block;
+        margin: 2px;
+        padding: 0;
+        background-color: #59322B;
+        border: 1px solid #000;
+}
+
+.myAcct:hover {
+        color: #FF9B50;
+}
+
+li:not(.MyAcct) {
+        margin-left: auto;
+        margin-right: auto;
+}
+

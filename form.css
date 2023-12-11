@@ -1,0 +1,59 @@
+/*Form CSS for Tuned In*/
+
+form#acct  {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+}
+
+legend {
+        color: rgb(95, 56, 34);
+}
+
+form#acct > fieldset {
+        background-color: rgb(250, 150, 80);
+        border-color: rgb(229, 80, 23);
+        border-radius: 20px
+        flex: 1 1 300px;
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+}
+
+div.formRow {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 7px 0px;
+}
+
+div.formRow > * {
+        flex: 1 1 150px;
+}
+
+textarea {
+        margin-top: 5px;
+        height: 150px;
+        width: 98%
+}
+
+div.formRow > input#albumsPerWeek {
+        flex: 0 0 50px;
+}
+
+div.formRow > input#musHrs {
+        flex: 0 0 50px;
+}
+
+/* Validation Styles */
+
+input:focus, select:focus, textarea:focus {
+        background-color: rgb(233, 161, 49);
+}
+
+input:focus:invalid {
+        background-color: rgb(215, 30, 30);
+}
+
+input:focus:valid {
+        background-color: rgb(76, 153, 0);
+}

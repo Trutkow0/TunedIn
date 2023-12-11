@@ -1,0 +1,251 @@
+<!-- Account Form for Tuned In-->
+
+<!-- metadata of the document -->
+<!DOCTYPE html>
+<html lan="en-US" dir ="ltr">
+
+<head>
+        <meta charset="utf-8">
+                <title> Tuned In </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" conent="The only place to find and stay up to date on Tim Rutkowski."/>
+        <meta name="keywords" content="Tuned In"/>
+        <meta name="author" content="Tim Rutkowski"/>
+<!-- link to CSS files -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media.css" />
+        <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+        <header>
+                <!--Main title header including a current date and time clock and the main title of the webpage -->
+                <div class="title-link">
+                        <!-- Current Date and Time Clock -->
+                        <div id="currentClock">
+                                <div id="dateNow"> mm/dd/yyyy <br> hh:mm:ss </div>
+                        </div>
+                <!--Website title with a link contained inside the text to navigate back to the homepage -->
+                        <h1> <img src="vinyl_record.jpeg" alt="Vinyl Record" width="30" height="30"> <a href="index.html"> Tuned In </a> <img src="vinyl_record.jpeg" alt="vinyl record" width="30" height="30"> </h1>
+                </div>
+        </header>
+
+<!-- Navigation list with hypertext links -->
+        <nav>
+                <li> <a href=""> Pop </a> </li>
+                <li> <a href="rock_alternative.html"> Rock/Alternative </a> </li>
+                <li> <a href="folk_country.html"> Folk/Country </a> </li>
+                <li> <a href=""> Hip-Hop/R&B </a> </li>
+                <li> <a href=""> Indie </a> </li>
+                <li class="myAcct"> <a href="form.html"> My Account </a> </li>
+        </nav>
+
+<!-- Form  elements -->
+                <form id="acct" attributes>
+
+        <!--Account Information Form with required fields -->
+                        <fieldset id="acctInfo">
+                                <small> * indicates a required field </small>
+                                <legend><h3> Account Info </h3></legend>
+                                        <div class="formRow">
+                                                <label for="firstName"> *First Name: </label>
+                                                <input name="firstName" id="firstName" type="text" placeholder="First Name" required  />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="lastName"> *Last Name: </label>
+                                                <input name="lastName" id="lastName" type="text" placeholder="Last Name" required />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="email"> *Email: </label>
+                                                <input name="email" id="mail" type="email" placeholder="example@email.com" required />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="password"> *Password: </label>
+                                                <input name="password" id="password" type="password" required />
+                                        </div>
+                <!-- Date selector that provides a calender graphic for the user to select from -->
+                                        <div class="formRow">
+                                                <label for="dob"> *Date of Birth: </label>
+                                                <input name="dob" id="dob" type="date" required />
+                                        </div>
+                        </fieldset>
+
+        <!--Mailing Address Form -->
+                        <fieldset id="mailing">
+                                <legend><h3> Mailing Address </h3></legend>
+                                        <div class="formRow">
+                                                <label for="street"> Street Address: </label>
+                                                <input name="street" id="street" type="text" placeholder="Street Address" />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="apt"> Suite/Apt #: </label>
+                                                <input name="apt" id="apt" type="text" placeholder="Suite/Apt #" />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="city"> City: </label>
+                                                <input name="city" id="city" type="text" placeholder="City" />
+                                        </div>
+
+                <!--Datalist of states and territories to recommend to user when typing -->
+                                        <div class="formRow">
+                                                <label for="state"> State: </label>
+                                                <input name="state"  type="text" list="state" placeholder="State" />
+                                                <datalist id="state">
+                                                        <option value="Alabama">
+                                                        <option value="Alaska">
+                                                        <option value="Arizona">
+                                                        <option value="Arkansas">
+                                                        <option value="American Samoa">
+                                                        <option value="California">
+                                                        <option value="Colorado">
+                                                        <option value="Connecticut">
+                                                        <option value="Deleware">
+                                                        <option value="District of Columbia">
+                                                        <option value="Florida">
+                                                        <option value="Georgia">
+                                                        <option value="Guam">
+                                                        <option value="Hawaii">
+                                                        <option value="Idaho">
+                                                        <option value="Illinois">
+                                                        <option value="Indiana">
+                                                        <option value="Iowa">
+                                                        <option value="Kansas">
+                                                        <option value="Kentucky">
+                                                        <option value="Louisiana">
+                                                        <option value="Maine">
+                                                        <option value="Maryland">
+                                                        <option value="Massachusetts">
+                                                        <option value="Michigan">
+                                                        <option value="Minnesota">
+                                                        <option value="Mississippi">
+                                                        <option value="Missouri">
+                                                        <option value="Montana">
+                                                        <option value="Nebraska">
+                                                        <option value="Nevada">
+                                                        <option value="New Hampshire">
+                                                        <option value="New Jersey">
+                                                        <option value="New Mexico">
+                                                        <option value="New York">
+                                                        <option value="North Carolina">
+                                                        <option value="North Dakota">
+                                                        <option value="Northern Mariana Islands">
+                                                        <option value="Ohio">
+                                                        <option value="Oklahoma">
+                                                        <option value="Oregon">
+                                                        <option value="Pennsylvania">
+                                                        <option value="Puerto Rico">
+                                                        <option value="Rhode Island">
+                                                        <option value="South Carolina">
+                                                        <option value="South Dakota">
+                                                        <option value="Tennessee">
+                                                        <option value="Texas">
+                                                        <option value="Trust Territories">
+                                                        <option value="Utah">
+                                                        <option value="Vermont">
+                                                        <option value="Virginia">
+                                                        <option value="Virgin Islands">
+                                                        <option value="Washington">
+                                                        <option value="West Virginia">
+                                                        <option value="Wisconsin">
+                                                        <option value="Wyoming">
+                                                </datalist>
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="zipCode"> ZIP Code: </label>
+                                                <input name="zipCode" id="zip" type="text" placeholder="ZIP Code" pattern="^\d{5}(-\d{4})?$" />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <label for="phoneNum"> Phone Number: </label>
+                                                <input name="phoneNum" id="phone" type="tel" placeholder="(000) 000-0000" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s]?\d{4}$"/>
+                                        </div>
+                        </fieldset>
+
+        <!-- User Profile Form -->
+                        <fieldset id="profile">
+                                <legend><h3> Profile </h3></legend>
+                <!-- Selection List for user to select multiple items that apply to them -->
+                                        <div class="formRow">
+                                                <label for="favGenre"> What is your favorite genre? <br> (select all that apply) </label>
+                                                <select name="favGenre" id="genre" size="7" multiple>
+                                                        <option value="genre1"> Pop </option>
+                                                        <option value="genre2"> Rock/Alternative </option>
+                                                        <option value="genre3"> Folk/Country </option>
+                                                        <option value="genre4"> Hip-Hop/RnB </option>
+                                                        <option value="genre5"> Indie </option>
+                                                        <option value="genre6"> Jazz/Funk </option>
+                                                        <option value="genre7"> Electronic </option>
+                                                </select>
+                                        </div>
+                                         <br>
+                <!-- Question with Radio Button selectors -->
+                                        <div class="formRow">
+                                                <label for="musicTime"> When do you usually listen to the most music? </label>
+                                                        <fieldset id="musicTime">
+                                                                <input name="name" value="value1" type="radio" />
+                                                                <label for="work"> When I'm working/studying </label><br>
+                                                                <input name="name" value="value2" type="radio" />
+                                                                <label for="drive"> When I'm driving </label><br>
+                                                                <input name="name" value="value3" type="radio" />
+                                                                <label for="exercise"> When I'm exercising </label><br>
+                                                                <input name="name" value="value4" type="radio" />
+                                                                <label for="freeTime"> In my free time </label><br>
+                                                                <input name="name" value="value5" type="radio" />
+                                                                <label for="other"> Other </label>
+                                                        </fieldset>
+                                        </div>
+                                        <br>
+                <!-- Spin selector to allow user to select a number that applies to them -->
+                                        <div class="formRow">
+                                                <label for="albumsPerWeek"> How many albums do you listen to a week? </label>
+                                                <input name="albumsPerWeek" id="albumsPerWeek" type="number" value="0" step="1" min="0" max="50" />
+                                        </div>
+                                         <br>
+                <!-- Range selector to allow user to select what range applies to them -->
+                                        <div class="formRow">
+                                                <label for="musHrs"> How many hours do you listen to music a week? </label> &nbsp;
+                                                0
+                                                <input name="musHrs" id="musHrs" type="range" value="25" step="5" min="0" max="50" />
+                                                50+
+                                        </div>
+                                         <br>
+                <!-- Text area for user to enter custom text -->
+                                                <label for="aboutMe"> About Me: </label>
+                                                <textarea name="aboutMe" id="aboutMe"></textarea>
+                        </fieldset>
+
+        <!--Checkboxes Form -->
+                        <fieldset>
+                                <div class="formRow">
+                                        <label for="subNews"><small> By clicking the checkbox, I indicate that I would like to subscribe to the &quot;Tuned In&quot; Newsletter </small></label>
+                                        <input name="subNews" id="subNews" type="checkbox" />
+                                </div>
+
+                                <div class="formRow">
+                                        <label for="subAds"><small> By clicking the checkbox, I indicate that I would like to recieve offers and deals from &quot;Tuned In&quot; </small></label>
+                                        <input name="subAds" id="subAds" type="checkbox" />
+                                </div>
+                        </fieldset>
+
+        <!--Submit and Reset Buttons -->
+                        <fieldset>
+                                <div id="buttons">
+                                        <div class="formRow">
+                                                <input type="submit" value="Save and Submit" />
+                                        </div>
+
+                                        <div class="formRow">
+                                                <input name="reset" id="reset" type="reset" value="Reset to Default" />
+                                        </div>
+                                </div>
+                        </fieldset>
+                </form>
+</body>
+</head>
+

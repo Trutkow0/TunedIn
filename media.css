@@ -1,0 +1,78 @@
+/* Mobile and Tablet screen size designs for Tuned In */
+
+/*Mobile phone design*/
+@media only screen and (max-width: 780px) {     
+
+        nav {
+        flex-direction: column;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        }
+
+        li {
+        margin: 5px 0;
+        }
+
+        .myAcct {
+        margin-left: 0;
+        }
+
+        section {
+                display: flex;
+                flex-direction: column;
+                flex-flow: column wrap;
+                margin-right: 20px;
+                margin-top: 10px;
+        }
+
+        aside {
+                flex: 1 1 auto;
+                width: 95%;
+                height: 95%;
+        }
+
+        article {
+                flex: 1 1 auto;
+                width: 95%;
+                height:95%;
+        }
+
+        article img {
+                flex: auto
+                width: 55%;
+                height: 55%;
+        }
+}
+
+/*Tablet design*/
+@media only screen and (min-width: 781px) and (max-width: 1262px) {     
+
+        section {
+                display: flex;
+                flex-direction: column;
+                flex-flow: column wrap;
+                margin-right: 10px;
+                margin-left: 30px;
+                margin-top: 10px;
+        }
+
+        aside {
+                flex: 1 1 auto;
+                width: 90%;
+                height: 90%;
+        }
+
+        article {
+                flex: 1 1 auto;
+                width: 90%;
+                height: 90%
+        }
+
+        article img {
+                flex: auto;
+                width: 45%;
+                height: 45%;
+        }
+} 
+
